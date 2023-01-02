@@ -832,10 +832,10 @@ apt install python3-pip -y
 apt-get update
 apt install awscli -y
 
-## aws configure access 설정 -> 여기서 AWS 세계여행이 시작됐다,,, 다들 조심해,,
+## aws configure access 설정
 aws configure set default.region 'ap-northeast-2'
-aws configure set aws_access_key_id 'AKIA4L67ANECMSPTQIVK' # 사용자 ACCESS KEY
-aws configure set aws_secret_access_key 'iMOStydHqtgSssiU5sVPHz+wvt5BQ+XPlXGrVkpP'  # 사용자 SECRET ACCESS KEY
+aws configure set aws_access_key_id '##############' # 사용자 ACCESS KEY
+aws configure set aws_secret_access_key '################'  # 사용자 SECRET ACCESS KEY
 
 apt-get update
 
