@@ -650,7 +650,7 @@ sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.l
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys FCEF32E745F2C3D5
 apt-get update
 
-# 임의로 수정한 코드
+# 수정한 코드
 apt install openssh-server
 DEBIAN_FRONTEND=noninteractive /usr/bin/apt-get upgrade -yq
 
